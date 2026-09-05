@@ -6,7 +6,9 @@ Landing page di calzini sportivi (tema: **velocità**) con checkout **Stripe in 
 
 - HTML/CSS/JS statico, zero build — font: Anton + Archivo + IBM Plex Mono
 - **Stripe Payment Link** (sandbox) per il checkout: prodotto *SpeedSocks Pro*, €14,90
-- Repo creato con `gh` CLI, deploy statico su **GitHub Pages** (fallback: Vercel richiedeva un nuovo `vercel login`)
+- Repo creato con `gh` CLI
+- Live su **Vercel** → https://speedsocks-demo.vercel.app (deploy via connettore MCP Vercel, senza CLI né login locale)
+- Mirror su GitHub Pages → https://samuelestabile.github.io/speedsocks-demo/
 
 ## Test del checkout
 
